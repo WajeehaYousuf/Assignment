@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Output:</h1>
+    <br>
+    <br>
+    <form action="">
+        <h2>Registration form</h2>
+        <br>
+        <h2>user personal information</h2>
+        <h3>Enter your full name</h3>
+        <input type="text">
+        <br>
+        <h3>Enter your email</h3>
+        <input type="email">
+        <br>
+        <h3>Enter your password</h3>
+        <input type="password">
+        <br>
+        <h3>Confirm your password</h3>
+        <input type="password">
+        <br>
+        <br>
+        <h3>Enter your gender</h3>
+        <input type="radio" name="gender" id="Male" >
+        <label for="Male">Male</label>
+        <br>
+        <input type="radio" name="gender" id="Female" >
+        <label for="Female">Female</label>
+        <br>
+        <input type="radio" name="gender" id="other" >
+        <label for="other">other</label>
+         <br>
+         <h3>Enter your address</h3>
+         <input type="address">
+         <br>
+         <button>sign up</button>
+    </form>
+</body>
+</html>
